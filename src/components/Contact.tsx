@@ -30,20 +30,20 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      content: "info@quadrabytes.com",
-      link: "mailto:info@quadrabytes.com",
+      content: "info@quadrabyte.net",
+      link: "mailto:info@quadrabyte.net",
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      content: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
+      content: "+1 (918) 413-3056",
+      link: "tel:+19184133056",
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Address",
-      content: "123 Tech Street, Digital City, DC 12345",
-      link: "#",
+      content: "37W 47st Suite-603, New York, NY 10036",
+      link: "https://www.google.com/maps/search/?api=1&query=37W+47st+Suite-603,+New+York,+NY+10036",
     },
   ];
 
