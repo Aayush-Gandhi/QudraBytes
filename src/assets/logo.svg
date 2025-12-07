@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer diamond outline with bracket-like forms -->
+  <path d="M20 3 L37 20 L20 37 L3 20 Z" stroke="#00E0FF" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  <!-- Inner bracket accents (left and right) -->
+  <path d="M20 3 L20 15 L10 20 L20 25 L20 37" stroke="#00E0FF" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  <path d="M20 3 L20 15 L30 20 L20 25 L20 37" stroke="#00E0FF" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  <!-- Center solid diamond -->
+  <path d="M20 12 L26 18 L20 24 L14 18 Z" fill="#00E0FF"/>
+</svg>

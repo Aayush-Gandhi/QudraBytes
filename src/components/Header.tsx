@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/logo.svg";
 
 interface NavLink {
   name: string;
@@ -14,7 +15,7 @@ export default function Header() {
   const navLinks: NavLink[] = [
     { name: "Home", path: "/" },
     { name: "Services", path: "/services" },
-    { name: "Portfolio", path: "/portfolio" },
+    { name: "Testimonials", path: "/testimonials" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
@@ -24,7 +25,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}
-        <Link to="/" className="text-white text-2xl font-bold tracking-wide hover:opacity-80 transition-opacity">
+        <Link to="/" className="flex items-center gap-3 text-white text-2xl font-bold tracking-wide hover:opacity-80 transition-opacity">
+          <img src={logo} alt="QuadraBytes Logo" className="w-8 h-8" />
           Quadra<span className="text-brand2">Bytes</span>
         </Link>
 

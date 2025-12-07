@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import { Github, Twitter, Linkedin, Mail } from "lucide-react";
+import logo from "../assets/logo.svg";
 
 const footerLinks = {
   company: [
     { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
-    { name: "Portfolio", path: "/portfolio" },
+    { name: "Testimonials", path: "/testimonials" },
     { name: "Contact", path: "/contact" },
   ],
   services: [
@@ -36,8 +37,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <Link to="/">
-              <h2 className="text-2xl font-bold text-white mb-4 hover:opacity-80 transition-opacity inline-block">
+            <Link to="/" className="flex items-center gap-3 mb-4 hover:opacity-80 transition-opacity inline-flex">
+              <img src={logo} alt="QuadraBytes Logo" className="w-8 h-8" />
+              <h2 className="text-2xl font-bold text-white">
                 Quadra<span className="text-brand2">Bytes</span>
               </h2>
             </Link>
