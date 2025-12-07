@@ -11,29 +11,29 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Sarah Johnson",
+    name: "Utsav",
     role: "CEO",
-    company: "TechCorp Inc.",
+    company: "Royalty Jewels",
     content:
-      "QuadraBytes transformed our digital infrastructure completely. Their expertise and dedication are unmatched. Highly recommended!",
+      "Quadra Bytes helped us transform our digital strategy. Their team is knowledgeable, responsive, and delivers quality work consistently.",
     rating: 5,
     avatar: "/api/placeholder/100/100",
   },
   {
-    name: "Michael Chen",
+    name: "Fenil",
     role: "CTO",
-    company: "InnovateLabs",
+    company: "Neon Brilliance",
     content:
-      "Working with QuadraBytes was a game-changer. They delivered beyond our expectations and helped us achieve our goals faster.",
+      "Working with Quadra Bytes was a game-changer. Their solutions improved our operations efficiency by 40%.",
     rating: 5,
     avatar: "/api/placeholder/100/100",
   },
   {
-    name: "Emily Rodriguez",
-    role: "Product Manager",
-    company: "StartupHub",
+    name: "Mihir",
+    role: "Founder",
+    company: "Mega Bearings",
     content:
-      "The team at QuadraBytes is professional, responsive, and incredibly skilled. They turned our vision into reality seamlessly.",
+      "Highly recommend Quadra Bytes. Their design and development expertise is unmatched.",
     rating: 5,
     avatar: "/api/placeholder/100/100",
   },
